@@ -9,7 +9,7 @@ public class N1476 {
 	final static int M = 19;
 	
 	public static void main(String[] args) {
-		int result = 0;
+		int result = 0; 
 		Scanner sc = new Scanner(System.in);
 		int[] years = new int[3];
 		for(int i=0; i<years.length; i++) {
