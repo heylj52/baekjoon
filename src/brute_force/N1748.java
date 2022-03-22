@@ -11,7 +11,6 @@ public class N1748 {
 		int last_length = (n+"").length();
 		int last = (int) (n % (Math.pow(10, last_length-1)));
 		int nn = n;
-		//if(n>9 && last == 0) result += last_length;
 		int[] arr = {9, 90*2, 900*3, 9000*4, 90000*5, 900000*6, 9000000*7,90000000*8};
 		while(n/10!=0) {
 			String str = n+"";
