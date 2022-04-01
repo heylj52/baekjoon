@@ -9,7 +9,7 @@ import java.util.Scanner;
 class Pair3 {
 	int x;
 	int y;
-	public Pair3(int x, int y) {
+	public Pair3(int x, int y) { 
 		this.x = x;
 		this.y = y;
 	}
