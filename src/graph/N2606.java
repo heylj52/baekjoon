@@ -9,7 +9,7 @@ public class N2606 {
 	
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in); 
-		int N = sc.nextInt();
+		int N = sc.nextInt(); 
 		int M = sc.nextInt();
 		ArrayList<ArrayList<Integer>> graph = new ArrayList<ArrayList<Integer>>();
 		for(int i=0; i<N+1; i++) {
