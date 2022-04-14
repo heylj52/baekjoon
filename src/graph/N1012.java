@@ -2,8 +2,6 @@ package graph;
 
 import java.io.BufferedWriter;
 import java.io.OutputStreamWriter;
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
@@ -46,7 +44,7 @@ public class N1012 {
 						cnt++;
 						visit[i][j] = true;
 						queue.add(new Pair7(i, j));
-						if(!queue.isEmpty()) {
+						while(!queue.isEmpty()) {
 							Pair7 p = queue.poll();
 							for(int n=0; n<4; n++) {
 								int nx = p.x + dx[n];
