@@ -10,6 +10,14 @@ public class N16929 {
 	public static void dfs(char[][] graph, int i, int j, int N, int M, boolean[][] visit) {
 		char word = graph[i][j];
 		visit[i][j] = true;
+		for(int x=0; x<4; x++) {
+			int nx = i + dx[x];
+			int ny = j + dy[x];
+			
+			if(graph[nx][ny]==word) { 
+				
+			}
+		}
 	}
 
 	public static void main(String[] args) {
