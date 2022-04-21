@@ -15,7 +15,7 @@ public class N16929 {
 			int ny = j + dy[x];
 			
 			if(graph[nx][ny]==word) { 
-				
+				 
 			}
 		}
 	}
