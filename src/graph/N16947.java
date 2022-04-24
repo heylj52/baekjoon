@@ -12,19 +12,15 @@ public class N16947 {
 	static ArrayList<ArrayList<Integer>> graph;
 	static Stack<Integer> stack;
 	
-	public static boolean dfs(int V) {
-		visit[V] = true;
-		stack.add(V);
-		for(int g : graph.get(V)) {
+	public static int dfs(int x, int p) {
+		visit[x] = true;
+		stack.add(x); 
+		for(int g : graph.get(x)) {
 			if(visit[g]==false) {
-				if(dfs(g)) {
-					return true;
-				}
-			}else {
-				System.out.println(V +" "+stack.toString());
+				
 			}
 		}
-		return false;
+		return -2;
 	}
 
 	public static void main(String[] args) {
@@ -46,9 +42,6 @@ public class N16947 {
 			dist = new int[N+1];
 			stack = new Stack<Integer>();
 			
-			if(dfs(1)) {
-				break;
-			}
 		}
 	
 	}
