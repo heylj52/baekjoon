@@ -42,7 +42,7 @@ public class N16947 {
 			dist = new int[N+1];
 			stack = new Stack<Integer>();
 			
-		}
+		} 
 	
 	}
 	
